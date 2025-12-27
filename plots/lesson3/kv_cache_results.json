@@ -1,0 +1,75 @@
+{
+  "with_cache": [
+    {
+      "context": 64,
+      "time_ms": 438.23349999729544
+    },
+    {
+      "context": 128,
+      "time_ms": 455.78204200137407
+    },
+    {
+      "context": 256,
+      "time_ms": 531.0254589421675
+    }
+  ],
+  "without_cache": [
+    {
+      "context": 64,
+      "time_ms": 1218.293415964581
+    },
+    {
+      "context": 128,
+      "time_ms": 1582.2704579913989
+    },
+    {
+      "context": 256,
+      "time_ms": 2604.199332999997
+    }
+  ],
+  "memory": [],
+  "gpu_memory": [
+    {
+      "context": 256,
+      "without_cache_mb": 4839.513671875,
+      "with_cache_mb": 4855.513671875,
+      "kv_cache_overhead_mb": 16.0
+    },
+    {
+      "context": 512,
+      "without_cache_mb": 4964.765625,
+      "with_cache_mb": 4996.765625,
+      "kv_cache_overhead_mb": 32.0
+    },
+    {
+      "context": 1024,
+      "without_cache_mb": 5215.26953125,
+      "with_cache_mb": 5371.26953125,
+      "kv_cache_overhead_mb": 156.0
+    },
+    {
+      "context": 1536,
+      "without_cache_mb": 5465.7734375,
+      "with_cache_mb": 5702.7734375,
+      "kv_cache_overhead_mb": 237.0
+    },
+    {
+      "context": 2048,
+      "without_cache_mb": 5716.27734375,
+      "with_cache_mb": 6036.27734375,
+      "kv_cache_overhead_mb": 320.0
+    },
+    {
+      "context": 3072,
+      "without_cache_mb": 6217.28515625,
+      "with_cache_mb": 6691.28515625,
+      "kv_cache_overhead_mb": 474.0
+    },
+    {
+      "context": 4096,
+      "without_cache_mb": 6762.29296875,
+      "with_cache_mb": 7354.29296875,
+      "kv_cache_overhead_mb": 592.0
+    }
+  ]
+}
