@@ -1,4 +1,4 @@
-# LLM Engineering & Deployment - Week 8 Code Examples
+# LLM Engineering & Deployment - Week 7 Code Examples
 
 **Week 8: LLM Inference Optimization**  
 Part of the LLM Engineering & Deployment Certification Program
